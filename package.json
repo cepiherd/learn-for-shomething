@@ -1,11 +1,11 @@
 {
-  "name": "learn-api-express",
+  "name": "do-something",
   "version": "1.0.0",
-  "description": "learn how to deploy express",
+  "description": "better do something than nothing",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon App.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start":"node server.js",   
+	 "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "nodejs",
-    "lovejs"
+    "express"
   ],
   "author": "cepiherd",
   "license": "ISC",
@@ -22,8 +22,6 @@
   },
   "homepage": "https://github.com/cepiherd/learn-for-shomething#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "http": "0.0.1-security",
-    "nodemon": "^2.0.6"
+    "express": "^4.17.1"
   }
 }
