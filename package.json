@@ -1,0 +1,29 @@
+{
+  "name": "learn-api-express",
+  "version": "1.0.0",
+  "description": "learn how to deploy express",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cepiherd/learn-for-shomething.git"
+  },
+  "keywords": [
+    "nodejs",
+    "lovejs"
+  ],
+  "author": "cepiherd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cepiherd/learn-for-shomething/issues"
+  },
+  "homepage": "https://github.com/cepiherd/learn-for-shomething#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.6"
+  }
+}
